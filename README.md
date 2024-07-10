@@ -1,6 +1,6 @@
 # MS-DETR
 
-This repository is the official implementation of "[MS-DETR: Efficient DETR Training with Mixed Supervision](https://arxiv.org/pdf/2401.03989.pdf)"
+[CVPR2024] This repository is the official implementation of "[MS-DETR: Efficient DETR Training with Mixed Supervision](https://arxiv.org/pdf/2401.03989.pdf)"
 
 Authors: Chuyang Zhao, Yifan Sun, Wenhao Wang, Qiang Chen, Errui Ding, Yi Yang, Jingdong Wang
 
@@ -123,10 +123,11 @@ Our code is based on [Deformable-DETR](https://github.com/fundamentalvision/Defo
 If you use MS-DETR in your research or wish to refer to the baseline results published here, please use the following BibTeX entry.
 
 ```BibTeX
-@article{zhao2024ms,
+@inproceedings{zhao2024ms,
   title={MS-DETR: Efficient DETR Training with Mixed Supervision},
   author={Zhao, Chuyang and Sun, Yifan and Wang, Wenhao and Chen, Qiang and Ding, Errui and Yang, Yi and Wang, Jingdong},
-  journal={arXiv preprint arXiv:2401.03989},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17027--17036},
   year={2024}
 }
 ```
